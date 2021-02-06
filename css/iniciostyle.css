@@ -1,0 +1,32 @@
+.principal-background{
+    height: 596px;
+    min-height: 550px;
+    width: 100%;
+    background-image: url(https://imgupload.io/images/2021/01/02/background-principal2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    box-shadow: 0 4px 8px 0 rgba(107, 107, 107, 0.2), 0 6px 20px 0 rgba(49, 49, 49, 0.19);
+}
+/* https://imgupload.io/images/2021/01/02/background-principal2.jpg  // https://imgupload.io/images/2021/01/02/background-principal.jpg // https://imgupload.io/images/2021/01/02/fondo-contacto.jpg>
+ */
+.principal-background > p{
+    font-size: 150px;
+    color: white;
+    font-weight: 300;
+}
+
+.principal-promos{
+    display: flex;
+    width: 100%;
+    height: 200px;   
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.principal-promos > img{
+    height: 100px;
+}
+
